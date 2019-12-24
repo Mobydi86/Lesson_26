@@ -334,6 +334,14 @@ template {
       background-color: transparent; }
     .button--primary:focus {
       outline: none; }
+    .button--primary__little {
+      background-color: #E3B873;
+      color: #fff;
+      box-shadow: 0 0.36rem 1.07rem rgba(227, 184, 115, 0.2);
+      transition: background-color 0.3s;
+      border: 0.07rem solid #E3B873; }
+      .button--primary__little:focus {
+        outline: none; }
   .button--outline {
     border: 0.07rem solid #fff;
     background-color: transparent;

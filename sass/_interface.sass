@@ -14,7 +14,15 @@
       box-shadow: none
       background-color: transparent
     &:focus
-      outline: none 
+      outline: none
+    &__little
+      background-color: $primary
+      color: $light
+      box-shadow: 0 0.36rem 1.07rem rgba($primary, 0.2) /* Параметры тени */
+      transition: background-color 0.3s
+      border: 0.07rem solid $primary
+      &:focus
+        outline: none
   &--outline
     border: 0.07rem solid $light
     background-color: transparent
